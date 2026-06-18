@@ -1,0 +1,18 @@
+# Laravel
+/web-laravel/vendor
+/web-laravel/.env
+/web-laravel/storage/*.key
+/web-laravel/node_modules
+
+# Python
+/api-python/__pycache__/
+/api-python/*.pyc
+/api-python/venv/
+/api-python/env/
+/api-python/.env
+
+# Model (Jika file .pkl sangat besar, gunakan Git LFS)
+*.pkl
+
+# Umum
+.DS_Store

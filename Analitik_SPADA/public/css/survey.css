@@ -1,0 +1,35 @@
+/* Import variabel dan dasar dari dashboard.css atau copy ulang root */
+@import url('dashboard.css');
+
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+    padding: 40px 20px;
+}
+
+.form-section {
+    background-color: var(--bg-white);
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-header .section-title {
+    border-bottom: none;
+    margin-bottom: 10px;
+}
+
+.form-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
